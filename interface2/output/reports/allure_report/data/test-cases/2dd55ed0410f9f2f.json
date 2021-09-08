@@ -1,0 +1,91 @@
+{
+  "uid" : "2dd55ed0410f9f2f",
+  "name" : "test_ds01[args0]",
+  "fullName" : "testcase.test_ds#test_ds01",
+  "historyId" : "e49247903c7208cecf86a0c7bf21a797",
+  "time" : {
+    "start" : 1631083426992,
+    "stop" : 1631083426992,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('/Users/dongshuai/PycharmProjects/interface2/testcase/test_ds.py', 8, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture",
+    "time" : {
+      "start" : 1631083426422,
+      "stop" : 1631083426466,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "my_fixture::0",
+    "time" : {
+      "start" : 1631083427487,
+      "stop" : 1631083428494,
+      "duration" : 1007
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_ds"
+  }, {
+    "name" : "host",
+    "value" : "dongshuaideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "40682-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_ds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'id': 1, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正常', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"emsg\":\"登录成功\"', 'actual': None, 'valiadate': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "2dd55ed0410f9f2f.json",
+  "parameterValues" : [ "{'id': 1, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正常', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"emsg\":\"登录成功\"', 'actual': None, 'valiadate': None}" ]
+}
