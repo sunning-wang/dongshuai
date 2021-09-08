@@ -5,7 +5,7 @@ from common.yaml_util import *
 import json
 
 
-# @pytest.mark.skip
+@pytest.mark.all
 @pytest.mark.parametrize('args', extract_util(case_file='%s/data/case_yaml/4.批改数据能力.yaml' % base_dir))
 def test_user_experience(args):
     """批改数据能力模块相关接口"""

@@ -7,7 +7,7 @@ import json
 import requests
 
 
-# @pytest.mark.skip
+@pytest.mark.all
 @pytest.mark.parametrize('args',
                          extract_util(case_file='%s/data/case_yaml/1-AI学生-用户体验优化V1.1_ailearn-frees.yaml' % base_dir))
 def test_user_experience(args):

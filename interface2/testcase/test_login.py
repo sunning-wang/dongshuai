@@ -8,6 +8,7 @@ import json
 
 
 @pytest.mark.run(order=1)
+@pytest.mark.all
 @pytest.mark.parametrize('args', extract_util('%s/data/case_yaml/1.登录.yaml' % base_dir))
 def test_login(args):
     """登录接口，获取token"""

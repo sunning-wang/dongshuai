@@ -1,70 +1,71 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "testcase",
     "children" : [ {
       "name" : "test_login",
       "children" : [ {
         "name" : "test_login[args0]",
-        "uid" : "4cf31748ad985081",
+        "uid" : "b329c3dd211c65da",
         "parentUid" : "0a485542467e5c5c95949e99a701fc6f",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426467,
-          "stop" : 1631083426639,
-          "duration" : 172
+          "start" : 1631097258678,
+          "stop" : 1631097258853,
+          "duration" : 175
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 1, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正常', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"emsg\":\"登录成功\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_login[args1]",
-        "uid" : "87b479a0cb5bc1bb",
+        "uid" : "95f7b67f64be9a5f",
         "parentUid" : "0a485542467e5c5c95949e99a701fc6f",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426640,
-          "stop" : 1631083426693,
-          "duration" : 53
+          "start" : 1631097258855,
+          "stop" : 1631097258898,
+          "duration" : 43
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 2, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正确的用户名，错误的密码', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"123445\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"ecode\":1003,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_login[args2]",
-        "uid" : "d66b2c3d3ab93901",
+        "uid" : "edd949e630ee1f2e",
         "parentUid" : "0a485542467e5c5c95949e99a701fc6f",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426694,
-          "stop" : 1631083426728,
-          "duration" : 34
+          "start" : 1631097258899,
+          "stop" : 1631097258915,
+          "duration" : 16
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 3, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-错误的用户名，错误的密码', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"1234\",\\n    \"uname\": \"12345\"\\n}', 'expect': '\"ecode\":1043,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_login[args3]",
-        "uid" : "ec2811e305c23f7f",
+        "uid" : "2dbf6283b329a427",
         "parentUid" : "0a485542467e5c5c95949e99a701fc6f",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426730,
-          "stop" : 1631083426759,
-          "duration" : 29
+          "start" : 1631097258916,
+          "stop" : 1631097258933,
+          "duration" : 17
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 4, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-用户名为空', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"\"\\n}', 'expect': '\"ecode\":1043,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_login[args4]",
-        "uid" : "4e3ac3d3267550a",
+        "uid" : "5d77e9b93e97065e",
         "parentUid" : "0a485542467e5c5c95949e99a701fc6f",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426761,
-          "stop" : 1631083426806,
-          "duration" : 45
+          "start" : 1631097258934,
+          "stop" : 1631097258973,
+          "duration" : 39
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,242 +76,173 @@
       "name" : "test_correct",
       "children" : [ {
         "name" : "test_user_experience[args0]",
-        "uid" : "39cf266705f3fbd2",
+        "uid" : "a4598611a3f08348",
         "parentUid" : "fdbfa34d6d44d87a90bac7148f72424b",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426807,
-          "stop" : 1631083426904,
-          "duration" : 97
+          "start" : 1631097258975,
+          "stop" : 1631097259069,
+          "duration" : 94
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 1, 'url': 'http://ailearn-interface-stress.xk12.cn/api/app/interface/knowledge/statistic', 'case_name': '风火轮查看k学情饼图-正常', 'header': \"{\\n  'requestid': '23456755',\\n  'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI2MDQ4NTYiLCJzeXN0ZW1JZCI6IjgxOTUxNTczNTg1Iiwib3JnSWQiOiI4MCIsInRpbWVzdGFtcCI6IjE2MzEwODMzOTg3NDQifQ.6vsB3ulNWeWglCAu9f77NGH8O1bddUHNZJCpdYYSdtc'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\":81951388231,\\n\"ktype\":2,\\n\"kid\":3272}', 'expect': '\"code\": 0, \"msg\": \"成功\"', 'actual': None, 'valiadate': None}" ]
+        "parameters" : [ "{'id': 1, 'url': 'http://ailearn-interface-stress.xk12.cn/api/app/interface/knowledge/statistic', 'case_name': '风火轮查看k学情饼图-正常', 'header': \"{\\n  'requestid': '23456755',\\n  'token': '${token}'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\":81951388231,\\n\"ktype\":2,\\n\"kid\":3272}', 'expect': '\"code\": 0, \"msg\": \"成功\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args1]",
-        "uid" : "436fb18f78da54fc",
+        "uid" : "2f6bd3cb050c8fca",
         "parentUid" : "fdbfa34d6d44d87a90bac7148f72424b",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426905,
-          "stop" : 1631083426946,
-          "duration" : 41
+          "start" : 1631097259071,
+          "stop" : 1631097259109,
+          "duration" : 38
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 2, 'url': 'http://ailearn-interface-stress.xk12.cn/api/app/interface/knowledge/statistic', 'case_name': '风火轮查看k学情饼图-student_id为空', 'header': \"{\\n  'requestid': '23456755',\\n  'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI2MDQ4NTYiLCJzeXN0ZW1JZCI6IjgxOTUxNTczNTg1Iiwib3JnSWQiOiI4MCIsInRpbWVzdGFtcCI6IjE2MzEwODMzOTg3NDQifQ.6vsB3ulNWeWglCAu9f77NGH8O1bddUHNZJCpdYYSdtc'\\n}\\n\", 'method': 'get', 'body': '{\\n\"ktype\":2,\\n\"kid\":3272}', 'expect': '{\"code\": 10000, \"msg\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
+        "parameters" : [ "{'id': 2, 'url': 'http://ailearn-interface-stress.xk12.cn/api/app/interface/knowledge/statistic', 'case_name': '风火轮查看k学情饼图-student_id为空', 'header': \"{\\n  'requestid': '23456755',\\n  'token': '${token}'\\n}\\n\", 'method': 'get', 'body': '{\\n\"ktype\":2,\\n\"kid\":3272}', 'expect': '{\"code\": 10000, \"msg\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args2]",
-        "uid" : "1d02f16de3b28e25",
+        "uid" : "13251d6386a47f10",
         "parentUid" : "fdbfa34d6d44d87a90bac7148f72424b",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426947,
-          "stop" : 1631083426992,
-          "duration" : 45
+          "start" : 1631097259111,
+          "stop" : 1631097259148,
+          "duration" : 37
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 3, 'url': 'http://ailearn-interface-stress.xk12.cn/api/app/interface/knowledge/statistic', 'case_name': '风火轮查看k学情饼图-student_id为特殊字符', 'header': \"{\\n  'requestid': '23456755',\\n  'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI2MDQ4NTYiLCJzeXN0ZW1JZCI6IjgxOTUxNTczNTg1Iiwib3JnSWQiOiI4MCIsInRpbWVzdGFtcCI6IjE2MzEwODMzOTg3NDQifQ.6vsB3ulNWeWglCAu9f77NGH8O1bddUHNZJCpdYYSdtc'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\":\"@#$%\",\\n\"ktype\":2,\\n\"kid\":3272}', 'expect': '{\"code\": 10000, \"msg\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
+        "parameters" : [ "{'id': 3, 'url': 'http://ailearn-interface-stress.xk12.cn/api/app/interface/knowledge/statistic', 'case_name': '风火轮查看k学情饼图-student_id为特殊字符', 'header': \"{\\n  'requestid': '23456755',\\n  'token': '${token}'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\":\"@#$%\",\\n\"ktype\":2,\\n\"kid\":3272}', 'expect': '{\"code\": 10000, \"msg\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
       } ],
       "uid" : "fdbfa34d6d44d87a90bac7148f72424b"
-    }, {
-      "name" : "test_ds",
-      "children" : [ {
-        "name" : "test_ds01[args0]",
-        "uid" : "2dd55ed0410f9f2f",
-        "parentUid" : "fdc2b75d8e772e49d8daa138e7d2e0e7",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631083426992,
-          "stop" : 1631083426992,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 1, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正常', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"emsg\":\"登录成功\"', 'actual': None, 'valiadate': None}" ]
-      }, {
-        "name" : "test_ds01[args1]",
-        "uid" : "5f64ac81d231f4b5",
-        "parentUid" : "fdc2b75d8e772e49d8daa138e7d2e0e7",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631083426994,
-          "stop" : 1631083426994,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 2, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正确的用户名，错误的密码', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"123445\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"ecode\":1003,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
-      }, {
-        "name" : "test_ds01[args2]",
-        "uid" : "d98860c4fe2f97df",
-        "parentUid" : "fdc2b75d8e772e49d8daa138e7d2e0e7",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631083426994,
-          "stop" : 1631083426994,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 3, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-错误的用户名，错误的密码', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"1234\",\\n    \"uname\": \"12345\"\\n}', 'expect': '\"ecode\":1043,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
-      }, {
-        "name" : "test_ds01[args3]",
-        "uid" : "e440a8cf2a095bd1",
-        "parentUid" : "fdc2b75d8e772e49d8daa138e7d2e0e7",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631083426995,
-          "stop" : 1631083426995,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 4, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-用户名为空', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"\"\\n}', 'expect': '\"ecode\":1043,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
-      }, {
-        "name" : "test_ds01[args4]",
-        "uid" : "41c0f3ad6f3e335c",
-        "parentUid" : "fdc2b75d8e772e49d8daa138e7d2e0e7",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1631083426997,
-          "stop" : 1631083426997,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 5, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-密码为空', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"ecode\":1003,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
-      } ],
-      "uid" : "fdc2b75d8e772e49d8daa138e7d2e0e7"
     }, {
       "name" : "test_user_experience",
       "children" : [ {
         "name" : "test_user_experience[args0]",
-        "uid" : "63ba1fbf039442db",
+        "uid" : "10c7aa017d4be4f2",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083426998,
-          "stop" : 1631083427045,
-          "duration" : 47
+          "start" : 1631097259149,
+          "stop" : 1631097259193,
+          "duration" : 44
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 1, 'url': 'http://ailearn-interface-dev.xk12.cn/api/pad/interface/minicourse/collected/subject/list', 'case_name': '学生收藏的智课的科学列表-正常', 'header': \"{\\n  'requestid': '23456754'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\":\"81951573257\"}', 'expect': '\"code\": 0, \"message\": \"success\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args1]",
-        "uid" : "453817b662369faf",
+        "uid" : "9d497a54cb96d538",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427046,
-          "stop" : 1631083427085,
-          "duration" : 39
+          "start" : 1631097259195,
+          "stop" : 1631097259232,
+          "duration" : 37
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 2, 'url': 'http://ailearn-interface-dev.xk12.cn/api/pad/interface/minicourse/collected/subject/list', 'case_name': '学生收藏的智课的科学列表-参数为空', 'header': \"{\\n  'requestid': '23456754'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\":\"\"}', 'expect': '{\"code\": 10000, \"message\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args2]",
-        "uid" : "15f724fdaed9fea1",
+        "uid" : "4fe0654dc3b332b5",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427086,
-          "stop" : 1631083427123,
-          "duration" : 37
+          "start" : 1631097259233,
+          "stop" : 1631097259271,
+          "duration" : 38
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 3, 'url': 'http://ailearn-interface-dev.xk12.cn/api/pad/interface/minicourse/collected/subject/list', 'case_name': '学生收藏的智课的科学列表-参数为null', 'header': \"{\\n  'requestid': '23456754'\\n}\\n\", 'method': 'get', 'body': '{\"student_id\": \"null\"}', 'expect': '{\"code\": 10000, \"message\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args3]",
-        "uid" : "4b557e077c07c96",
+        "uid" : "247bab1ae0fddbee",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427125,
-          "stop" : 1631083427166,
-          "duration" : 41
+          "start" : 1631097259273,
+          "stop" : 1631097259309,
+          "duration" : 36
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 4, 'url': 'http://ailearn-interface-dev.xk12.cn/api/pad/interface/minicourse/collected/subject/list', 'case_name': '学生收藏的智课的科学列表-不填参数', 'header': \"{\\n  'requestid': '23456754'\\n}\\n\", 'method': 'get', 'body': '{}', 'expect': '{\"code\": 10000, \"message\": \"参数错误\"}', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args4]",
-        "uid" : "47233dc7edc7ad49",
+        "uid" : "b7655e61d094d63",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427169,
-          "stop" : 1631083427185,
-          "duration" : 16
+          "start" : 1631097259311,
+          "stop" : 1631097259331,
+          "duration" : 20
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 5, 'url': 'http://ailearn-interface-dev.xk12.cn/api/pad/interface/minicourse/collected/subject/list', 'case_name': '学生收藏的智课的科学列表-requestId为空', 'header': '{\\n}', 'method': 'get', 'body': '{\"student_id\":\"81951573257\"}', 'expect': 'miss requestid', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args5]",
-        "uid" : "cf338737e310960f",
+        "uid" : "30f58728bf83229d",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427187,
-          "stop" : 1631083427320,
-          "duration" : 133
+          "start" : 1631097259332,
+          "stop" : 1631097259434,
+          "duration" : 102
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 6, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正常', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"emsg\":\"登录成功\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args6]",
-        "uid" : "286b1079642cef2",
+        "uid" : "f22feaf534fb524e",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427322,
-          "stop" : 1631083427368,
-          "duration" : 46
+          "start" : 1631097259438,
+          "stop" : 1631097259486,
+          "duration" : 48
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 7, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-正确的用户名，错误的密码', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"123445\",\\n    \"uname\": \"81951573585\"\\n}', 'expect': '\"ecode\":1003,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args7]",
-        "uid" : "5830b32980921896",
+        "uid" : "ab2ac4d8b24e5c24",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427370,
-          "stop" : 1631083427404,
-          "duration" : 34
+          "start" : 1631097259488,
+          "stop" : 1631097259517,
+          "duration" : 29
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 8, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-错误的用户名，错误的密码', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"1234\",\\n    \"uname\": \"12345\"\\n}', 'expect': '\"ecode\":1043,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args8]",
-        "uid" : "4c42b2bc8636d9a0",
+        "uid" : "df77d848e2d5eb4c",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427406,
-          "stop" : 1631083427441,
-          "duration" : 35
+          "start" : 1631097259518,
+          "stop" : 1631097259574,
+          "duration" : 56
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'id': 9, 'url': 'http://stupad-dev.xk12.cn/api/pad/v3/user/login', 'case_name': '登录-用户名为空', 'header': \"{\\n  'requestid': '12345',\\n  'Content-Type': 'application/json'\\n}\", 'method': 'post', 'body': '{\\n    \"pwd\": \"kWUQSXvgKMK5EAzikYYvK44ti2OPLVZ8WQupI34ZHeZ6jqe3Z19IvOhYdzq0ITaS0/vyif259M1rYAMomgRoaF4YQrYX4X4HKqJ0DoNYEoE8v28wFMxqAIQkr8sYPAaXqx+feR62wZphwfM4B6vVkE6l9kTTo90rEqsPIycU0ik=\",\\n    \"uname\": \"\"\\n}', 'expect': '\"ecode\":1043,\"emsg\":\"帐号或密码错误\"', 'actual': None, 'valiadate': None}" ]
       }, {
         "name" : "test_user_experience[args9]",
-        "uid" : "c7b653028f31ec6d",
+        "uid" : "db8fe80288c7e4ac",
         "parentUid" : "b592848dc3904ae8f03132cc120805d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631083427443,
-          "stop" : 1631083427487,
-          "duration" : 44
+          "start" : 1631097259575,
+          "stop" : 1631097259603,
+          "duration" : 28
         },
         "flaky" : false,
         "newFailed" : false,
@@ -319,6 +251,5 @@
       "uid" : "b592848dc3904ae8f03132cc120805d6"
     } ],
     "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
-  } ],
-  "name" : "suites"
+  } ]
 }
