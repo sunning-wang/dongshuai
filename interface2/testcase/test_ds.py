@@ -1,6 +1,6 @@
 import pytest
 import json
-
+from common.log_util import LogUtil
 from common.extract_util import extract_util
 from common.request_util import request_utl
 from common.yaml_util import *
@@ -17,9 +17,12 @@ def test_ds01(args):
     method = args["method"]
     run_result_txt = '%s/data/run_result.txt' % base_dir  # 运行结果保存到txt文件中
     expect = args['expect']  # 断言依据
+    name = args["case_name"]
 
     rep = request_utl(method, url, headers, payloads=payloads, params=params, expect=expect, run_result_txt=run_result_txt)
-    print(rep)
-
+    LogUtil().info(rep)
+    # 添加日志
+    log_text = "name：%s，url：%s，reponse：%s" % (name, url, rep)
+    LogUtil().info(log_text)
 
 

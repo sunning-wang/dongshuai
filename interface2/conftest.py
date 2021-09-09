@@ -36,6 +36,7 @@ def my_fixture():
         content = "接口测试用例运行完成，运行结果见附件"
         subject = "接口测试"
         print("-----%s 开始发送结果邮件----" % time.strftime("%Y%m%d_%H:%M:%S"))
+
         email_util(att=att, content=content, subject=subject)
         print('-----%s 邮件发送已完成----' % time.strftime("%Y%m%d_%H:%M:%S"))
 

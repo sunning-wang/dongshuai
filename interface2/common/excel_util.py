@@ -38,36 +38,23 @@ class ExcelUtil(object):
                 cases_template_list[i]['expect'] = case_list[i][6]
                 cases_template_list[i]['actual'] = case_list[i][7]
                 cases_template_list[i]['valiadate'] = case_list[i][8]
-
             value.append({"cases": cases_template_list})
-
-        # print(value[0]['cases'][0])
         print(value)
 
         for v in value:
-            # print(v)
-            # print((v['cases']))  # 每个sheet中的用例
-            # print(len(v['cases']))
-            # print(v['cases'][n])
-
             for case in v['cases']:
                 # print(case)
                 if '正常' in str(case):
                     print(case['id'], case)
                     smoke_value.append(case)
 
-        smoke = {}
-        smoke["cases"] = smoke_value
-        print(smoke)
-
+        smoke = {"cases": smoke_value}
         return value, smoke
 
     @exception_utils
     def write_excel(self):
         """运行结果写入excel"""
         l_reponse, l_ispass = read_txt_handel()
-        # print(l_reponse.__len__())
-        # print(l_ispass.__len__())
 
         i = 0
         j = 0
@@ -88,7 +75,6 @@ class ExcelUtil(object):
         strftime = time.strftime("%Y%m%d_%H:%M:%S")
         save_path = "%s/output/run_result_excel/运行结果_%s.xlsx" % (self.base_dir, strftime)
         self.wb.save(save_path)
-        # print(save_path)
         return save_path
 
 
